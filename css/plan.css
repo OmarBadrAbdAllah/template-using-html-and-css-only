@@ -1,0 +1,54 @@
+.head-plan{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid white;
+  
+    
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 28px;
+    color:white;
+}
+.head-plan span {
+    position: relative;
+    
+
+}
+.head-plan span::before{
+    content: "$";
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    top: -18px;
+    left: -15px;
+}
+.sect-child ul{
+    list-style: none;
+    padding: 5px;
+}
+.sect-child ul li{
+    display: flex;
+    padding: 15px 3px;
+    border-bottom: 1px solid gray;
+    margin: 5px;
+}
+.sect-child .content{
+    width: 95%;
+}
+button{
+    margin: 7px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.head-span{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

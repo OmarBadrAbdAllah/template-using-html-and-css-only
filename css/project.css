@@ -1,0 +1,112 @@
+.bc-r{
+    background-color: red;
+    border: none;
+    outline:none;
+}
+.bc-g{
+    background-color: green;
+    border: none;
+    outline:none;
+}
+.bc-b{
+    background-color: blue;
+    border: none;
+    outline:none;
+}
+.w-5{
+    width: 50%;
+}
+.w-4{
+    width: 40%;
+}
+.w-10{
+    width: 100%;
+}
+.w-8{
+    width: 80%;
+}
+.w-9{
+    width: 90%;
+}
+.w-6{
+    width: 60%;
+}
+.w-7{
+    width: 70%;
+}
+.head-span{
+    font-size: 16px;
+}
+.section{
+    width: 48%;
+    padding:5px;
+    background-color: white;
+    margin:1%;
+    border-radius: 5px;
+}
+.head-sec2{
+    position: relative;
+    margin-bottom:  20px;
+}
+.head-sec2 span{
+    position: absolute;
+    color: gray;
+    top: 39px;
+    right: 2px;
+
+}
+.pic{
+    border-bottom: 2px solid #ddd;
+    padding: 5px 10px;
+}
+.pic img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+}
+.pic img:not(:first-child){
+    margin-left:-20px ;
+}
+.sp{
+    border-bottom: 2px solid #ddd;
+    padding: 5px 10px;
+    text-align: right;
+}
+.sp ul{
+    list-style: none;
+    padding: 0;
+}
+.sp ul li{
+    display: inline-block;
+    background-color: #c7dfe9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  text-transform: capitalize;
+}
+.info{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+}
+.info .mesure{
+    width: 80%;
+    border-radius: 5px;
+    height: 10px;
+    background-color: #ddd;
+}
+.info .mesure span{
+   
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.info .salary{
+    width: 19%;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -6px;
+}

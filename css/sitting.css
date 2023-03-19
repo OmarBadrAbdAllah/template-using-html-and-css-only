@@ -1,0 +1,197 @@
+.control{
+    padding: 10px;
+    margin: -10px 5px;
+}
+.area{
+    margin: 10px;
+  
+}
+.night{
+    float: right;
+}
+.click{
+    display: block;
+    width: 100px;
+    background-color: gray;
+   height: 25px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+.night input[type="checkbox"]{
+    visibility: hidden;
+}
+
+.click span{
+    width: 25px;
+    height: 25px;
+    content: "x";
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    top: 0px;
+    padding: 3px;
+   cursor: pointer;
+     left: 1px; 
+     transition: all 1s ;
+}
+.che{
+    display: none;
+}
+.night input[type="checkbox"]:checked + label{
+    background-color: rgb(24, 24, 226)  
+}
+.night input[type="checkbox"]:checked + label span{
+    left: 74px;
+
+}
+.night input[type="checkbox"]:checked + label span i{
+    display: none;
+}
+.night input[type="checkbox"]:checked + label span .che{
+    display: block;
+}
+.area textarea{
+    width: 100%;
+    padding:5px;
+    height: 125px;
+    border-radius: 5px;
+}
+.info{
+    padding: 10px;
+}
+.info span{
+    display: block;
+    text-transform: capitalize;
+    color: gray;
+    
+    margin: 10px 1px 8px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border-color: gray;
+    border: 1px solid;
+}
+input[type='email']{
+    width: 70%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border-color: gray;
+    border: 1px solid;
+}
+.info span:last-child{
+    display: inline;
+    color: blue;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.child{
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+.child:last-child{
+    border: none;
+}
+.child input[type="submit"]{
+    position: absolute;
+    top: 20%;
+    right: 5px;
+
+}
+.social{
+    position: relative;
+    margin: 5px 5px 20px;
+
+}
+.social i{
+    position: absolute;
+    display: block;
+    color: gray;
+    padding: 5px;
+    border: 1px solid #80808024;;
+    border-radius: 5px;
+
+    top: 0;
+}
+.social input[type="text"]{
+    text-transform: capitalize;
+    padding: 5px 5px 5px 51px;
+    height: 45px;
+    background-color: #ddd;
+    border:1px solid #80808024;
+}
+.social input[type="text"]:focus + i{
+color: black;
+}
+.sect-child ul{
+    list-style: none;
+    padding: 5px;
+}
+.sect-child ul li {
+    display:block;
+    margin: 5px 5px 10px;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+}
+.sect-child ul li label{
+   
+    letter-spacing: 1.5px;
+}
+.chek{
+    width: 20px;
+    height: 20px;
+}
+
+.child-sc{
+    display: flex;
+    margin: 10px;
+    border:2px solid #f6f6f6;
+    padding: 10px;
+}
+.child-sc input[type="radio"]{
+    width: 0;
+    height: 0;
+}
+.child-sc input[type="radio"]:checked + .manger{
+    color: blue;
+    border-color: blue;
+}
+.child-sc .manger{
+    width: 33%;
+    transition: 1s;
+    
+    border:2px solid #f6f6f6;
+    border-radius: 5px;
+ 
+
+}
+.child-sc .manger label{
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.child-sc .manger span{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.child-sc .manger i{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+
+}

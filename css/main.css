@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+.clear-fix{
+    clear: both;
+}
+.cont{
+margin: 10px auto;
+}
+.active{
+    background-color: #8080805c;
+    border-radius: 5px ;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.tx-c{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.bc-r{
+    background-color: red;   
+}
+.bc-gr{
+    background-color: #f1f5f9   
+}
+.bc-g{
+    background-color: green;
+    outline:3px solid green;
+}
+.bc-p{
+    background-color: pink;
+}
+.bc-o{
+    background-color: orange;
+    outline:3px solid orange;
+}
+.bc-b{
+    background-color: blue;
+    outline:3px solid blue;
+}
+.cr-w{
+    color:white;
+}
+.cr-g{
+    color:gray;
+}
+.cr-r{
+    color:red
+}
+.cr-b{
+    color:rgba(0, 177, 231, 0.568)
+}
+.cr-o{
+    color:orange
+}
+.cr-br{
+    color:brown
+}
+.cr-g{
+    color:rgb(127, 202, 93)
+}
+/* start nav   */
+.menue{
+    background-color: #dddddd03;
+    position: fixed;
+    width: 250px;
+    height:100vh;
+    top:0;
+    left: 0;
+}
+.brand{
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+  
+    margin: 20px;
+}
+.brand  h4{
+    border-bottom: 3px solid black;
+    font-size: large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 5px 15px 20px;
+    width: 75%;
+    margin: 5px auto;
+}
+.brand span{
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    outline: 5px solid white;
+    top:49px;
+    left:98px;
+    
+}
+.links{
+     margin: 50px 20px;
+     padding: 5px 20px;
+     text-align: left;
+}
+.links li {
+list-style: none;
+display: inline-block;
+text-transform: capitalize;
+letter-spacing: 2px;
+width: 100%;
+}
+.links li a{
+
+    text-decoration: none;
+    display: block;
+    padding: 5px 20px;
+    margin: 10px;
+    color: black;
+}
+/* end nav
+} */
+/* /start heading  */
+.heading{
+    width: calc(100% - 250px);
+   position: relative;
+   left: 250px;
+
+}
+.heading .con{
+    position: relative;
+}
+.heading .search{
+    float: left;
+    margin: 24px 20px;
+}
+.heading .search input{
+    padding: 10px 5px 10px 30px;
+    border-radius: 10px;
+    border-color: cyan;
+    outline-color: brown;
+    width: 150px;
+   
+}
+.heading .search input:focus{
+    width:250px;
+    transition:2s;
+    
+ 
+}
+.search span{
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+.search i{
+    font-size: 17px;
+    color: green;
+}
+.heading .note{
+    float: right;
+    margin: 24px 20px; 
+}
+.note .note-cont{
+    display: flex;
+}
+ .imge{
+    width: 45px;
+    height: 45px;
+    position: relative;
+   
+}
+.imge img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+} 
+.note .note-cont .icon { position: relative;}
+.note .note-cont .icon i{
+    display: block;
+    margin: 25px 5px;
+    font-size: 25px;
+}    
+.note .note-cont .icon span{
+    display: block;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}  
+/* end heading  */
+.main-cont{
+    position: relative;
+    left: 241px;
+    background-color: #f1f5f9;
+   
+    padding: 20px;
+    width:calc(100% - 230px)
+}
+.main-h{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.line{
+    background-color: white;
+    position: relative;
+    width: 140px;
+    height: 2px;
+}
+.line-span{
+    width:30%;
+    background-color: black;
+    display: block;
+    height: 100%;
+}
+.sect-cont{
+    display: flex;
+    padding: 10px;
+  flex-wrap: wrap;
+}
+.sect{
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    margin:1% ;
+
+}
+.sac-h{
+    font-size: 30px;
+    text-transform: capitalize;
+    
+
+}
+.head-span{
+    margin-top: -20px;
+    color: blue;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.head-sec2{
+   
+    margin-top: -10px;
+     
+     padding: 10px;
+ 
+ }
+ .sp-h{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+ }
+ .sp-p{
+    text-transform: capitalize;
+    font-size: 14px;
+    color:gray
+ }
+ .sect-child{
+    padding:10px
+ }
+ .sp-but{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border:none;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+ }
